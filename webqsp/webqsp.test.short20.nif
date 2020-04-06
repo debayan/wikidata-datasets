@@ -1,0 +1,351 @@
+@prefix itsrdf: <http://www.w3.org/2005/11/its/rdf#> .
+@prefix nif: <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core#> .
+@prefix ns1: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://sda.tech/webquestions> a nif:ContextCollection ;
+    nif:hasContext <http://sda.tech/webquestions/WebQTest-0>,
+        <http://sda.tech/webquestions/WebQTest-1>,
+        <http://sda.tech/webquestions/WebQTest-12>,
+        <http://sda.tech/webquestions/WebQTest-13>,
+        <http://sda.tech/webquestions/WebQTest-14>,
+        <http://sda.tech/webquestions/WebQTest-16>,
+        <http://sda.tech/webquestions/WebQTest-19>,
+        <http://sda.tech/webquestions/WebQTest-20>,
+        <http://sda.tech/webquestions/WebQTest-21>,
+        <http://sda.tech/webquestions/WebQTest-22>,
+        <http://sda.tech/webquestions/WebQTest-23>,
+        <http://sda.tech/webquestions/WebQTest-24>,
+        <http://sda.tech/webquestions/WebQTest-26>,
+        <http://sda.tech/webquestions/WebQTest-28>,
+        <http://sda.tech/webquestions/WebQTest-3>,
+        <http://sda.tech/webquestions/WebQTest-31>,
+        <http://sda.tech/webquestions/WebQTest-6>,
+        <http://sda.tech/webquestions/WebQTest-7>,
+        <http://sda.tech/webquestions/WebQTest-8>,
+        <http://sda.tech/webquestions/WebQTest-9> ;
+    ns1:conformsTo <http://persistence.uni-leipzig.org/nlp2rdf/ontologies/nif-core/2.1> .
+
+<http://sda.tech/webquestions/WebQTest-0#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-0> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q766> .
+
+<http://sda.tech/webquestions/WebQTest-1#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-1> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q11891> .
+
+<http://sda.tech/webquestions/WebQTest-1#offset_1_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "h" ;
+    nif:beginIndex "1"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-1> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q30461> .
+
+<http://sda.tech/webquestions/WebQTest-12#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-12> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1397> .
+
+<http://sda.tech/webquestions/WebQTest-12#offset_1_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "h" ;
+    nif:beginIndex "1"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-12> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q132050> .
+
+<http://sda.tech/webquestions/WebQTest-13#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-13> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q9696> .
+
+<http://sda.tech/webquestions/WebQTest-14#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-14> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q114295> .
+
+<http://sda.tech/webquestions/WebQTest-16#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-16> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q3336843> .
+
+<http://sda.tech/webquestions/WebQTest-16#offset_1_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "h" ;
+    nif:beginIndex "1"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-16> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q145> .
+
+<http://sda.tech/webquestions/WebQTest-19#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-19> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1588> .
+
+<http://sda.tech/webquestions/WebQTest-20#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-20> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q8018> .
+
+<http://sda.tech/webquestions/WebQTest-21#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-21> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q233229> .
+
+<http://sda.tech/webquestions/WebQTest-21#offset_1_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "h" ;
+    nif:beginIndex "1"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-21> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q44148> .
+
+<http://sda.tech/webquestions/WebQTest-22#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-22> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q79> .
+
+<http://sda.tech/webquestions/WebQTest-23#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-23> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q8027> .
+
+<http://sda.tech/webquestions/WebQTest-24#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-24> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q16867> .
+
+<http://sda.tech/webquestions/WebQTest-26#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-26> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q23556> .
+
+<http://sda.tech/webquestions/WebQTest-28#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-28> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q466482> .
+
+<http://sda.tech/webquestions/WebQTest-3#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-3> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q945030> .
+
+<http://sda.tech/webquestions/WebQTest-31#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-31> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q10125> .
+
+<http://sda.tech/webquestions/WebQTest-6#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-6> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q1676743> .
+
+<http://sda.tech/webquestions/WebQTest-7#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-7> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q296898> .
+
+<http://sda.tech/webquestions/WebQTest-8#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-8> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q34969> .
+
+<http://sda.tech/webquestions/WebQTest-9#offset_0_1> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "w" ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "1"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-9> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q8445> .
+
+<http://sda.tech/webquestions/WebQTest-9#offset_1_2> a nif:OffsetBasedString,
+        nif:Phrase ;
+    nif:anchorOf "h" ;
+    nif:beginIndex "1"^^xsd:nonNegativeInteger ;
+    nif:endIndex "2"^^xsd:nonNegativeInteger ;
+    nif:referenceContext <http://sda.tech/webquestions/WebQTest-9> ;
+    itsrdf:taIdentRef <http://www.wikidata.org/entity/Q9588> .
+
+<http://sda.tech/webquestions/WebQTest-0> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "32"^^xsd:nonNegativeInteger ;
+    nif:isString "what does jamaican people speak?" .
+
+<http://sda.tech/webquestions/WebQTest-13> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:isString "who was vice president after kennedy died?" .
+
+<http://sda.tech/webquestions/WebQTest-14> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "53"^^xsd:nonNegativeInteger ;
+    nif:isString "where is the fukushima daiichi nuclear plant located?" .
+
+<http://sda.tech/webquestions/WebQTest-19> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:isString "what is my timezone in louisiana?" .
+
+<http://sda.tech/webquestions/WebQTest-20> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "25"^^xsd:nonNegativeInteger ;
+    nif:isString "what did st augustine do?" .
+
+<http://sda.tech/webquestions/WebQTest-22> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "37"^^xsd:nonNegativeInteger ;
+    nif:isString "what kind government does egypt have?" .
+
+<http://sda.tech/webquestions/WebQTest-23> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:isString "what town was martin luther king assassinated in?" .
+
+<http://sda.tech/webquestions/WebQTest-24> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:isString "where did edgar allan poe died?" .
+
+<http://sda.tech/webquestions/WebQTest-26> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "38"^^xsd:nonNegativeInteger ;
+    nif:isString "what to do today in atlanta with kids?" .
+
+<http://sda.tech/webquestions/WebQTest-28> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:isString "what electorate does anna bligh represent?" .
+
+<http://sda.tech/webquestions/WebQTest-3> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "42"^^xsd:nonNegativeInteger ;
+    nif:isString "who plays ken barlow in coronation street?" .
+
+<http://sda.tech/webquestions/WebQTest-31> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "45"^^xsd:nonNegativeInteger ;
+    nif:isString "where did andy murray started playing tennis?" .
+
+<http://sda.tech/webquestions/WebQTest-6> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "31"^^xsd:nonNegativeInteger ;
+    nif:isString "where is jamarcus russell from?" .
+
+<http://sda.tech/webquestions/WebQTest-7> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "40"^^xsd:nonNegativeInteger ;
+    nif:isString "where was george washington carver from?" .
+
+<http://sda.tech/webquestions/WebQTest-8> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:isString "what else did ben franklin invent?" .
+
+<http://sda.tech/webquestions/WebQTest-1> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "49"^^xsd:nonNegativeInteger ;
+    nif:isString "what did james k polk do before he was president?" .
+
+<http://sda.tech/webquestions/WebQTest-12> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "29"^^xsd:nonNegativeInteger ;
+    nif:isString "who is governor of ohio 2011?" .
+
+<http://sda.tech/webquestions/WebQTest-16> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "34"^^xsd:nonNegativeInteger ;
+    nif:isString "what countries are part of the uk?" .
+
+<http://sda.tech/webquestions/WebQTest-21> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "24"^^xsd:nonNegativeInteger ;
+    nif:isString "who is keyshia cole dad?" .
+
+<http://sda.tech/webquestions/WebQTest-9> a nif:Context,
+        nif:OffsetBasedString ;
+    nif:beginIndex "0"^^xsd:nonNegativeInteger ;
+    nif:endIndex "33"^^xsd:nonNegativeInteger ;
+    nif:isString "who was richard nixon married to?" .
+
